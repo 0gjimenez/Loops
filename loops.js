@@ -1,13 +1,21 @@
 // For-loop functions
 
-function positiveIntSum(/* Give it one input */){
-
-
-
+function positiveIntSum(){
+let sum = 0
+let n = 100
+let i = 1
+for( i < n)
+sum = sum + i
+i++
 }
 
 
-function additionPatternSum(/* Give it three inputs */){
+function additionPatternSum(start, diff, limit){
+let start = 0
+let diff = 6
+let limit = 20
+for(let i = 2; i < limit)
+sum = start * i + diff
 
 }
 
